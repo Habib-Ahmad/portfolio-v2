@@ -8,6 +8,7 @@
   h2 {
     font-size: 1rem;
     text-align: center;
+    color: #64ffda;
     @include media(">=phone", "<lgphone") {
       font-size: 14px;
     }

@@ -12,33 +12,36 @@ import codepenIcon from "./images/codepen.svg"
 import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
 
+// About
+import avatar from "./images/avatar.svg"
+
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
 
   //   Header Details ---------------------
-  name: "chetan",
+  name: "Ahmad",
   headerTagline: [
     //Line 1 For Header
-    "Building digital",
+    "Let's build",
     //Line 2 For Header
-    "products, brands,",
+    "Something Amazing",
     //Line 3 For Header
-    "and experience",
+    "together",
   ],
   //   Header Paragraph
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    "I am a full stack developer with a passion for solving problems and learning new things.",
 
   //Contact Email
-  contactEmail: "hello@chetanverma.com",
+  contactEmail: "ahmadalkali.dev@gmail.com",
 
   // End Header Details -----------------------
 
   // Work Section ------------------------
   projects: [
     {
-      title: "Project One", //Project Title - Add Your Project Title Here
+      title: "AiMedicare", //Project Title - Add Your Project Title Here
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
@@ -48,7 +51,7 @@ export default {
       url: "http://chetanverma.com/",
     },
     {
-      title: "Project Two", //Project Title - Add Your Project Title Here
+      title: "100 Day Companion", //Project Title - Add Your Project Title Here
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
@@ -58,7 +61,7 @@ export default {
       url: "http://chetanverma.com/",
     },
     {
-      title: "Project Three", //Project Title - Add Your Project Title Here
+      title: "Fasta Ride", //Project Title - Add Your Project Title Here
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
@@ -68,7 +71,7 @@ export default {
       url: "http://chetanverma.com/",
     },
     {
-      title: "Project Four", //Project Title - Add Your Project Title Here
+      title: "Pay Savvy", //Project Title - Add Your Project Title Here
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
@@ -78,7 +81,7 @@ export default {
       url: "http://chetanverma.com/",
     },
     {
-      title: "Project Five", //Project Title - Add Your Project Title Here
+      title: "Ercas Solutions", //Project Title - Add Your Project Title Here
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
@@ -88,7 +91,7 @@ export default {
       url: "http://chetanverma.com/",
     },
     {
-      title: "Project Six", //Project Title - Add Your Project Title Here
+      title: "Hulu", //Project Title - Add Your Project Title Here
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
@@ -112,14 +115,12 @@ export default {
   // End Work Section -----------------------
 
   // About Secton --------------
-  aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+  aboutParaOne: "Hello there, my name is Ahmad ",
   aboutParaTwo:
     "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   aboutParaThree:
     "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+  aboutImage: avatar,
 
   //   End About Section ---------------------
 
