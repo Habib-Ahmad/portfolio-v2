@@ -22,15 +22,12 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={socialLink.img} alt="icons"></img>
+                {socialLink.img}
               </a>
             ))}
           </div>
-          <span>
-            Made With <icon>❤</icon> by{" "}
-            <a href="https://www.chetanverma.com/">Chetan Verma</a>
-          </span>
         </div>
+        <div></div>
       </div>
     </div>
   )

@@ -7,6 +7,7 @@
   align-items: center;
   h1 {
     font-size: 3rem;
+    color: white;
     line-height: 20px;
   }
   h2 {
@@ -24,7 +25,7 @@
   }
   .email-link {
     font-size: 1.5rem;
-    color: black;
+    color: #64ffda;
   }
   .social-icons {
     margin-top: 20px;
@@ -32,11 +33,5 @@
       height: 2rem;
       margin: 10px;
     }
-  }
-  span {
-    margin-top: 10px;
-  }
-  icon {
-    color: red;
   }
 }

@@ -56,3 +56,11 @@ body {
     background-color: #64ffda1a;
   }
 }
+
+.footer-icon {
+  height: 32px;
+  width: 32px;
+  &:hover {
+    stroke: #64ffda;
+  }
+}

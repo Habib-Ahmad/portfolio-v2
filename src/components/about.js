@@ -20,6 +20,11 @@ const About = () => {
               <br></br>
               {data.aboutParaThree}
             </p>
+            <ul>
+              {data.skillList.map((skill, idx) => (
+                <li key={idx}>{skill}</li>
+              ))}
+            </ul>
           </div>
           <div className="image-wrapper">
             <img src={data.aboutImage} alt="about"></img>

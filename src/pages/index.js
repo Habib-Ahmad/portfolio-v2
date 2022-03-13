@@ -6,8 +6,6 @@ import SEO from "../components/seo"
 import Header from "../components/Header"
 import Work from "../components/Work"
 import About from "../components/about"
-import Skills from "../components/skills"
-// import Promotion from "../components/Promotion"
 import Footer from "../components/Footer"
 
 const IndexPage = () => (
@@ -15,9 +13,7 @@ const IndexPage = () => (
     <SEO title="Portfolio Template" />
     <Header />
     <Work></Work>
-    <About></About>
-    <Skills></Skills>
-    {/* <Promotion></Promotion> */}
+    <About />
     <Footer></Footer>
   </Layout>
 )
