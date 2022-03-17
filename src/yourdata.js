@@ -1,10 +1,15 @@
 import React from "react"
 
+// Work
+import companion from "./images/companion-thumbnail.png"
+import invoice from "./images/invoice-thumbnail.png"
+
 // About
 import avatar from "./images/avatar.svg"
 
 // Contact
 import Github from "./images/Github"
+import LinkedIn from "./images/LinkedIn"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -32,64 +37,62 @@ export default {
   // Work Section ------------------------
   projects: [
     {
-      title: "AiMedicare", //Project Title - Add Your Project Title Here
+      title: "Invoice Application", //Project Title - Add Your Project Title Here
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      github: "https://github.com/Habib-Ahmad/aimedicare-landing-page",
+      url: "http://aimedicare.com.ng/",
+      stack: ["React-Native", "Firebase"],
+      img: invoice,
+      route: "invoice",
     },
     {
       title: "100 Day Companion", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+        "A productivity tool to help developers complete the 100 days of code challenge by tracking progress, achieving badges and more.", // Add Your Service Type Here
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      github: "https://github.com/Habib-Ahmad/aimedicare-landing-page",
+      url: "http://aimedicare.com.ng/",
+      stack: ["React", "Typescript", "Material-UI", "Firebase"],
+      img: companion,
+      route: "100-day-companion",
+    },
+  ],
+
+  moreProjects: [
+    {
+      title: "AiMedicare Landing page", //Project Title - Add Your Project Title Here
+      para:
+        "Landing page for AiMedicare, a startup aiming to improve the Nigerian healthcare sector with telemedicine services and artificial intelligence.", // Add Your Service Type Here
+      //Project URL - Add Your Project Url Here
+      github: "https://github.com/Habib-Ahmad/aimedicare-landing-page",
+      url: "http://aimedicare.com.ng/",
+      stack: ["React", "Material-UI", "AWS", "wordpress", "baba"],
     },
     {
-      title: "Fasta Ride", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      title: "Hulu Clone", //Project Title - Add Your Project Title Here
+      para: "A simple clone of one of the most popular sreaming services", // Add Your Service Type Here
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      github: "https://github.com/Habib-Ahmad/hulu-clone",
+      url: "https://hulu-clone-e6e67.web.app/",
+      stack: ["React"],
     },
     {
-      title: "Pay Savvy", //Project Title - Add Your Project Title Here
+      title: "Fasta Ride Landing Page", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "Landing page for Fasta Ride. A startup providing ride-hailing services in suburban Nigeria", // Add Your Service Type Here
       //Project URL - Add Your Project Url Here
+      github: "https://github.com/Habib-Ahmad/fasta-landing-page",
       url: "http://chetanverma.com/",
+      stack: ["React", "Material-UI"],
     },
     {
       title: "Ercas Solutions", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      para: "Website for an online payment processing platform.", // Add Your Service Type Here
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-    },
-    {
-      title: "Hulu", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://ercas.com.ng/",
+      stack: ["Wordpress", "HTML", "CSS"],
     },
   ],
 
@@ -120,6 +123,7 @@ export default {
   social: [
     // Add Or Remove The Link Accordingly
     { img: <Github />, url: "https://github.com/habib-ahmad" },
+    { img: <LinkedIn />, url: "https://www.linkedin.com/in/ahmad--habib/" },
   ],
 
   // End Contact Section ---------------

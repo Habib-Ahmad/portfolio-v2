@@ -5,16 +5,20 @@ import SEO from "../components/seo"
 // Components
 import Header from "../components/Header"
 import Work from "../components/Work"
-import About from "../components/about"
+import About from "../components/About"
 import Footer from "../components/Footer"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Portfolio Template" />
+    <SEO
+      title="Ahmad Habib"
+      description="Ahmad Habib is a full stack developer with a passion for solving problems and learning new things"
+      lang="en"
+    />
     <Header />
-    <Work></Work>
+    <Work />
     <About />
-    <Footer></Footer>
+    <Footer />
   </Layout>
 )
 
