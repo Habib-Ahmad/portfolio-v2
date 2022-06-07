@@ -12,7 +12,7 @@ const companion = () => {
       <Navbar />
       <div className="section" id="about">
         <div className="container">
-          <div className="invoice-wrapper">
+          <div className="project-wrapper">
             <h1>100 Day Companion</h1>
             <img src={landing} alt="landing" />
             <img src={milestones} alt="milestones" />

@@ -25,13 +25,11 @@ const BigCard = ({
             </a>
           )}
           <div style={{ width: 10 }} />
-          <a
-            href={projectLink ? projectLink : "#"}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <ExternalLink />
-          </a>
+          {projectLink && (
+            <a href={projectLink} target="_blank" rel="noopener noreferrer">
+              <ExternalLink />
+            </a>
+          )}
         </div>
         <h3>{heading}</h3>
         <p>{paragraph}</p>

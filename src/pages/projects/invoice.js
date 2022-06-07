@@ -13,7 +13,7 @@ const invoice = () => {
       <Navbar />
       <div className="section" id="about">
         <div className="container">
-          <div className="invoice-wrapper">
+          <div className="project-wrapper">
             <h1>Invoice Application</h1>
 
             <div className="screenshots">

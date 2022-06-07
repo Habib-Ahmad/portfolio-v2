@@ -1,6 +1,7 @@
 import React from "react"
 
 // Work
+import paysure from "./images/paysure-thumbnail.png"
 import companion from "./images/companion-thumbnail.png"
 import invoice from "./images/invoice-thumbnail.png"
 
@@ -37,10 +38,18 @@ export default {
   // Work Section ------------------------
   projects: [
     {
-      title: "Invoice Application", //Project Title - Add Your Project Title Here
+      title: "Pay Sure",
+      para: "A tax and revenue collection application for the government",
+      github: "",
+      url: "",
+      stack: ["Next.JS", "Typescript", "Material-UI"],
+      img: paysure,
+      route: "pay-sure",
+    },
+    {
+      title: "Invoice Application",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project URL - Add Your Project Url Here
+        "A mobile application for generatng and reusing invoices on the go.",
       github: "https://github.com/Habib-Ahmad/aimedicare-landing-page",
       url: "http://aimedicare.com.ng/",
       stack: ["React-Native", "Firebase"],
@@ -48,10 +57,9 @@ export default {
       route: "invoice",
     },
     {
-      title: "100 Day Companion", //Project Title - Add Your Project Title Here
+      title: "100 Day Companion",
       para:
-        "A productivity tool to help developers complete the 100 days of code challenge by tracking progress, achieving badges and more.", // Add Your Service Type Here
-      //Project URL - Add Your Project Url Here
+        "A productivity tool to help developers complete the 100 days of code challenge by tracking progress, achieving badges and more.",
       github: "https://github.com/Habib-Ahmad/aimedicare-landing-page",
       url: "http://aimedicare.com.ng/",
       stack: ["React", "Typescript", "Material-UI", "Firebase"],
@@ -62,35 +70,31 @@ export default {
 
   moreProjects: [
     {
-      title: "AiMedicare Landing page", //Project Title - Add Your Project Title Here
+      title: "AiMedicare Landing page",
       para:
-        "Landing page for AiMedicare, a startup aiming to improve the Nigerian healthcare sector with telemedicine services and artificial intelligence.", // Add Your Service Type Here
-      //Project URL - Add Your Project Url Here
+        "Landing page for AiMedicare, a startup aiming to improve the Nigerian healthcare sector with telemedicine services and artificial intelligence.",
       github: "https://github.com/Habib-Ahmad/aimedicare-landing-page",
       url: "http://aimedicare.com.ng/",
       stack: ["React", "Material-UI", "AWS", "wordpress", "baba"],
     },
     {
-      title: "Hulu Clone", //Project Title - Add Your Project Title Here
-      para: "A simple clone of one of the most popular sreaming services", // Add Your Service Type Here
-      //Project URL - Add Your Project Url Here
+      title: "Hulu Clone",
+      para: "A simple clone of one of the most popular sreaming services",
       github: "https://github.com/Habib-Ahmad/hulu-clone",
       url: "https://hulu-clone-e6e67.web.app/",
       stack: ["React"],
     },
     {
-      title: "Fasta Ride Landing Page", //Project Title - Add Your Project Title Here
+      title: "Fasta Pay Landing Page",
       para:
-        "Landing page for Fasta Ride. A startup providing ride-hailing services in suburban Nigeria", // Add Your Service Type Here
-      //Project URL - Add Your Project Url Here
-      github: "https://github.com/Habib-Ahmad/fasta-landing-page",
-      url: "http://chetanverma.com/",
+        "Landing page for Fasta Pay. A startup providing transactions services with the use of QR code.",
+      github: "https://github.com/Habib-Ahmad/fasta-pay",
+      url: "https://fastapay.ng/",
       stack: ["React", "Material-UI"],
     },
     {
-      title: "Ercas Solutions", //Project Title - Add Your Project Title Here
-      para: "Website for an online payment processing platform.", // Add Your Service Type Here
-      //Project URL - Add Your Project Url Here
+      title: "Ercas Solutions",
+      para: "Website for an online payment processing platform.",
       url: "https://ercas.com.ng/",
       stack: ["Wordpress", "HTML", "CSS"],
     },
