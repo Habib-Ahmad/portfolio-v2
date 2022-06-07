@@ -75,7 +75,7 @@ export default {
         "Landing page for AiMedicare, a startup aiming to improve the Nigerian healthcare sector with telemedicine services and artificial intelligence.",
       github: "https://github.com/Habib-Ahmad/aimedicare-landing-page",
       url: "http://aimedicare.com.ng/",
-      stack: ["React", "Material-UI", "AWS", "wordpress", "baba"],
+      stack: ["React", "Material-UI", "AWS"],
     },
     {
       title: "Hulu Clone",

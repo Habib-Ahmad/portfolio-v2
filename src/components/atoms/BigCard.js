@@ -1,4 +1,4 @@
-import { Link } from "gatsby"
+import { Link, navigate } from "gatsby"
 import React from "react"
 import ExternalLink from "../../images/ExternalLink"
 import Github from "../../images/Github"
@@ -13,8 +13,11 @@ const BigCard = ({
   route,
 }) => {
   return (
-    <Link className="big-card" to={`/projects/${route}`}>
-      <div className="image-wrapper">
+    <div className="big-card">
+      <div
+        className="image-wrapper"
+        onClick={() => navigate(`/projects/${route}`)}
+      >
         <img src={img} alt={img} />
       </div>
       <div className="content">
@@ -31,15 +34,20 @@ const BigCard = ({
             </a>
           )}
         </div>
-        <h3>{heading}</h3>
-        <p>{paragraph}</p>
-        <ul>
-          {stack?.map((lang, idx) => (
-            <li key={idx}>{lang}</li>
-          ))}
-        </ul>
+        <div
+          style={{ cursor: "pointer" }}
+          onClick={() => navigate(`/projects/${route}`)}
+        >
+          <h3>{heading}</h3>
+          <p>{paragraph}</p>
+          <ul>
+            {stack?.map((lang, idx) => (
+              <li key={idx}>{lang}</li>
+            ))}
+          </ul>
+        </div>
       </div>
-    </Link>
+    </div>
   )
 }
 
