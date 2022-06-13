@@ -1,4 +1,4 @@
-import { Link, navigate } from "gatsby"
+import { navigate } from "gatsby"
 import React from "react"
 import ExternalLink from "../../images/ExternalLink"
 import Github from "../../images/Github"
@@ -16,7 +16,9 @@ const BigCard = ({
     <div className="big-card">
       <div
         className="image-wrapper"
+        role="button"
         onClick={() => navigate(`/projects/${route}`)}
+        onKeyDown={() => navigate(`/projects/${route}`)}
       >
         <img src={img} alt={img} />
       </div>
@@ -36,7 +38,9 @@ const BigCard = ({
         </div>
         <div
           style={{ cursor: "pointer" }}
+          role="button"
           onClick={() => navigate(`/projects/${route}`)}
+          onKeyDown={() => navigate(`/projects/${route}`)}
         >
           <h3>{heading}</h3>
           <p>{paragraph}</p>

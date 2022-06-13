@@ -10,6 +10,8 @@
 
   @include media(">=phone", "<lgphone") {
     flex-direction: column;
+    height: 500px;
+    width: 90%;
   }
   @include media(">=lgphone", "<tablet") {
     flex-direction: column;
@@ -42,12 +44,14 @@
   .content {
     padding: 0 20px;
     width: 60%;
+    height: 100%;
     color: #8892b0;
     position: relative;
 
     @include media(">=phone", "<lgphone") {
       padding: 20px 0;
       width: 100%;
+      margin-top: 15px;
     }
     @include media(">=lgphone", "<tablet") {
       padding: 20px 0;
@@ -62,6 +66,9 @@
       align-items: center;
       justify-content: flex-end;
       height: 10%;
+      @include media(">=phone", "<lgphone") {
+        margin-bottom: 20px;
+      }
       svg {
         width: 24px;
         height: 24px;
@@ -72,10 +79,20 @@
       color: #ccd6f6;
       margin-top: 0;
     }
+    p {
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      max-width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      height: 100px;
+    }
     ul {
       display: flex;
       align-items: center;
       justify-content: flex-start;
+      flex-wrap: wrap;
       list-style: none;
       padding: 0;
       position: absolute;

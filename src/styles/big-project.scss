@@ -45,6 +45,10 @@
   .screenshots {
     img {
       max-width: 45%;
+      margin-top: 100px;
+      @include media(">=phone", "<lgphone") {
+        max-width: 70%;
+      }
     }
   }
 }

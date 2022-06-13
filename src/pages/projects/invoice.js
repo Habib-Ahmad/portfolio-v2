@@ -16,13 +16,6 @@ const invoice = () => {
           <div className="project-wrapper">
             <h1>Invoice Application</h1>
 
-            <div className="screenshots">
-              <img src={img1} alt="clients" />
-              <img src={img2} alt="view-client" />
-              <img src={img3} alt="new-invoice" />
-              <img src={img4} alt="invoices" />
-            </div>
-
             <h2>The problem</h2>
             <p>
               The client worked for a{" "}
@@ -91,6 +84,13 @@ const invoice = () => {
               </li>
               <li>App is only on android for now</li>
             </ul>
+
+            <div className="screenshots">
+              <img src={img1} alt="clients" />
+              <img src={img2} alt="view-client" />
+              <img src={img3} alt="new-invoice" />
+              <img src={img4} alt="invoices" />
+            </div>
           </div>
         </div>
       </div>
