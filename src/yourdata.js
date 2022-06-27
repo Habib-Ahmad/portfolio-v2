@@ -50,8 +50,8 @@ export default {
       title: "Invoice Application",
       para:
         "A mobile application for generatng and reusing invoices on the go.",
-      github: "https://github.com/Habib-Ahmad/aimedicare-landing-page",
-      url: "http://aimedicare.com.ng/",
+      github: "https://github.com/Habib-Ahmad/invoice",
+      url: "",
       stack: ["React-Native", "Firebase"],
       img: invoice,
       route: "invoice",
@@ -60,8 +60,8 @@ export default {
       title: "100 Day Companion",
       para:
         "A productivity tool to help developers complete the 100 days of code challenge by tracking progress, achieving badges and more.",
-      github: "https://github.com/Habib-Ahmad/aimedicare-landing-page",
-      url: "http://aimedicare.com.ng/",
+      github: "https://github.com/arndom/100Days-Companion",
+      url: "https://companion.netlify.app/",
       stack: ["React", "Typescript", "Material-UI", "Firebase"],
       img: companion,
       route: "100-day-companion",
